@@ -324,4 +324,5 @@ chrome.extension.onMessage.addListener(function(request, sender, callback) {
     callback(e.innerWidth > 5 && e.innerHeight > 5);
     break;
   }
+  return true;
 });
